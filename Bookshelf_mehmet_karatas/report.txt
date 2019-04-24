@@ -1,0 +1,185 @@
+/**
+ * Name: Mehmet Karatas
+ * Class: Java Programming
+ * Assignment: Bookshelf
+ *
+ * Description: This is a "bookshelf" program. We can add, remove the books to the
+ * Bookshelf and it is limited to 5 books. We also have isFull, isEmpty and isDuplicate to
+ * check if it is empty or full and prevent us to add duplicated books.
+ *
+ */
+
+ NOTE: I run and tested the program and it is working properly.
+
+Example Output 1:
+-----------------
+/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57302:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/mmac/Desktop/Java/School/Bookshelf/out/production/Bookshelf com.company.Main
+
+Is it empty: 
+true
+Is it full: 
+false
+
+
+The book "Benim Adim Kirmizi" has been added.
+The book "Karamazow Kardesler" has been added.
+The book "War and Peace" has been added.
+The book "Don Quixote" has been added.
+The book "Les Misérables" has been added.
+
+|=========| Updated |=========| 
+
+Book  { 
+Title: Benim Adim Kirmizi
+Author: Orhan Pamuk
+Publisher: Alfred A. Knopf
+Price: $34.5
+Copyright Date: 1987
+}
+
+Book  { 
+Title: Karamazow Kardesler
+Author: Fyodor Dostoyevsky
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+Book  { 
+Title: War and Peace
+Author: Leo Tolstoy
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+Book  { 
+Title: Don Quixote
+Author: Miguel de Cervantes
+Publisher: Francisco de Robles
+Price: $10.0
+Copyright Date: 1605
+}
+
+Book  { 
+Title: Les Misérables
+Author: Victor Hugo
+Publisher: A. Lacroix, Verboeckhoven & Cie.
+Price: $17.65
+Copyright Date: 1862
+}
+
+
+The book "Karamazow Kardesler" has been removed
+
+The book "Les Misérables" has been removed
+
+|=========| Updated |=========| 
+
+Book  { 
+Title: Benim Adim Kirmizi
+Author: Orhan Pamuk
+Publisher: Alfred A. Knopf
+Price: $34.5
+Copyright Date: 1987
+}
+
+Book  { 
+Title: War and Peace
+Author: Leo Tolstoy
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+Book  { 
+Title: Don Quixote
+Author: Miguel de Cervantes
+Publisher: Francisco de Robles
+Price: $10.0
+Copyright Date: 1605
+}
+
+Is it empty: 
+false
+Is it full: 
+false
+
+
+
+Process finished with exit code 0
+
+
+ Example Output 2:
+ -----------------
+ /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57264:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/mmac/Desktop/Java/School/Bookshelf/out/production/Bookshelf com.company.Main
+
+|=========| Updated |=========| 
+
+The book "Benim Adim Kirmizi" has been added.
+The book "Karamazow Kardesler" has been added.
+The book "War and Peace" has been added.
+The book "War and Peace" has been added.
+The book "War and Peace" has been added.
+
+|=========| Updated |=========| 
+
+Book  { 
+Title: Benim Adim Kirmizi
+Author: Orhan Pamuk
+Publisher: Alfred A. Knopf
+Price: $34.5
+Copyright Date: 1987
+}
+
+Book  { 
+Title: Karamazow Kardesler
+Author: Fyodor Dostoyevsky
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+Book  { 
+Title: War and Peace
+Author: Leo Tolstoy
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+
+|=========| Updated |=========| 
+
+Book  { 
+Title: Benim Adim Kirmizi
+Author: Orhan Pamuk
+Publisher: Alfred A. Knopf
+Price: $34.5
+Copyright Date: 1987
+}
+
+Book  { 
+Title: Karamazow Kardesler
+Author: Fyodor Dostoyevsky
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+Book  { 
+Title: War and Peace
+Author: Leo Tolstoy
+Publisher: The Russian Messenger 
+Price: $12.99
+Copyright Date: 1879
+}
+
+false
+false
+
+Process finished with exit code 0
+
+
+
+
